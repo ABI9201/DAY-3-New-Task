@@ -1,0 +1,45 @@
+Day 3 task
+
+
+1.Create your own resume using Json?
+
+let resume : {
+        "name"  :  "Abishek H",
+       "email"  :  "abishekspikke007@gmail.com",
+       "phone"  :  "9940929202.",
+      "degree"  :  "B.com general",
+"passout year"  :  "2022",
+     "location" : {
+      "address" : "13,Boopathy nagarextn",
+    "postalCode": "600117",
+      "city"    : "chennai"},
+    "position"  : "Full stack developer", 
+    "experiance : "3 years",
+   "language"   :  "Tamil,English"
+      "skills"  :  "javascript","html","css",
+
+}
+
+
+2.Difference between window,screen and Document?
+
+Window 
+
+window is the main JavaScript object root, aka the global object in a browser, and it can also be treated 
+as the root of the document 
+object model. You can access it as window.
+
+Screen
+
+Screen is a small information object about physical screen dimensions . It can be used to display screen width, height, 
+colorDepth, pixelDepth etc. I
+t is not mandatory to write window prefix with screen object. It can be written without window prefix.
+
+Document
+
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's 
+content, which is the DOM tree. When an HTML document is loaded into a web browser , it becomes a document object. It is the root 
+node of the HTML document. The document actually gets loaded inside the window object and has properties available to it like title, 
+URL, cookie, etc. HTML documents, served with the "text/html" content type, also implement the HTMLDocument interface, whereas XML and 
+SVG documents implement the XMLDocument interface.
+
